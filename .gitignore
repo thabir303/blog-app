@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# next.js / frontend build output
+.next/
+**/.next/
+out/
+build/
+
+# python / backend artifacts
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+app.db
+
+# env files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# misc
+.DS_Store
+*.tsbuildinfo
