@@ -99,9 +99,9 @@ npm run dev
 
 After running `python seed.py` a Super Admin account is created:
 
-| Username | Password   | Role        |
+| Email | Password   | Role        |
 | -------- | ---------- | ----------- |
-| `admin`  | `admin123` | Super Admin |
+| `admin@example.com`  | `admin123` | Super Admin |
 
 Register more accounts at http://localhost:3000/register. All new registrations start as **Regular User**. A Super Admin can change any user's role from the Admin panel (http://localhost:3000/admin).
 
