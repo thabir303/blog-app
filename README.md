@@ -58,17 +58,20 @@ A full-stack Role-Based Access Control application with four distinct roles, pos
 ```bash
 cd backend
 
-# 1. Activate virtual environment
+# 1. Create virtual environment
+python3 -m venv venv
+
+# 2. Activate virtual env
 source venv/bin/activate        # macOS / Linux
 # venv\Scripts\activate         # Windows
 
-# 2. Install dependencies (first time only)
+# 3. Install dependencies (first time only)
 pip install -r requirements.txt
 
-# 3. Seed the default Super Admin (first time only)
+# 4. Seed the default Super Admin (first time only)
 python seed.py
 
-# 4. Start the server
+# 5. Start the server
 uvicorn app.main:app --reload --port 8000
 ```
 
